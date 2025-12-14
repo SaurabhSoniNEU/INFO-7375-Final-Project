@@ -1,0 +1,95 @@
+{
+  "retrieval": {
+    "section_accuracy": 62.5,
+    "mean_rank": 3.625,
+    "mrr": 0.38541666666666663,
+    "ndcg@5": 0.5836975128296009
+  },
+  "response": {
+    "avg_length": 212.0,
+    "citation_rate": 75.0,
+    "avg_coherence": 1.0,
+    "by_task_type": {
+      "qa": {
+        "avg_length": 121.5,
+        "avg_latency": 22.44519352912903,
+        "avg_coherence": 1.0
+      },
+      "summary": {
+        "avg_length": 254.0,
+        "avg_latency": 27.189571857452393,
+        "avg_coherence": 1.0
+      },
+      "extract": {
+        "avg_length": 137.66666666666666,
+        "avg_latency": 23.834579706192017,
+        "avg_coherence": 1.0
+      },
+      "compare": {
+        "avg_length": 329.0,
+        "avg_latency": 38.62965202331543,
+        "avg_coherence": 1.0
+      },
+      "critique": {
+        "avg_length": 457.0,
+        "avg_latency": 52.6975040435791,
+        "avg_coherence": 1.0
+      }
+    }
+  },
+  "latency": {
+    "avg_retrieval": 0.6224415143330891,
+    "avg_generation": 23.699800141652425,
+    "avg_total": 24.322241655985515,
+    "p95_total": 45.49777383804321,
+    "p99_total": 47.89628213882446
+  },
+  "overall": {
+    "score": 47.62334389413739,
+    "retrieval": {
+      "section_accuracy": 62.5,
+      "mean_rank": 3.625,
+      "mrr": 0.38541666666666663,
+      "ndcg@5": 0.5836975128296009
+    },
+    "response": {
+      "avg_length": 212.0,
+      "citation_rate": 75.0,
+      "avg_coherence": 1.0,
+      "by_task_type": {
+        "qa": {
+          "avg_length": 121.5,
+          "avg_latency": 22.44519352912903,
+          "avg_coherence": 1.0
+        },
+        "summary": {
+          "avg_length": 254.0,
+          "avg_latency": 27.189571857452393,
+          "avg_coherence": 1.0
+        },
+        "extract": {
+          "avg_length": 137.66666666666666,
+          "avg_latency": 23.834579706192017,
+          "avg_coherence": 1.0
+        },
+        "compare": {
+          "avg_length": 329.0,
+          "avg_latency": 38.62965202331543,
+          "avg_coherence": 1.0
+        },
+        "critique": {
+          "avg_length": 457.0,
+          "avg_latency": 52.6975040435791,
+          "avg_coherence": 1.0
+        }
+      }
+    },
+    "latency": {
+      "avg_retrieval": 0.6224415143330891,
+      "avg_generation": 23.699800141652425,
+      "avg_total": 24.322241655985515,
+      "p95_total": 45.49777383804321,
+      "p99_total": 47.89628213882446
+    }
+  }
+}
